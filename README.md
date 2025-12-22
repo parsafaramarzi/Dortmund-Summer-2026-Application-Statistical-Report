@@ -10,7 +10,7 @@ The analysis addresses the research questions concerning the relationship betwee
 
 | File/Folder | Description |
 | :--- | :--- |
-| `analyze.py` | **The main analysis script.** Executes all steps: data loading, cleaning, descriptive statistics, assumption checks (Levene's), inferential testing (Kruskal-Wallis), and post-hoc analysis (Dunn's). |
+| `analysis.py` | **The main analysis script.** Executes all steps: data loading, cleaning, descriptive statistics, assumption checks (Levene's), inferential testing (Kruskal-Wallis), and post-hoc analysis (Dunn's). |
 | `data/` | Placeholder directory for the original raw data file (`cycling_data.csv`). **Note:** Due to security policies, the original data file is **not included** in this repository but **must be placed here** to run the script. |
 | `output/` | Contains the generated statistical visualizations and the comprehensive descriptive tables referenced in the report. |
 | `README.md` | This documentation file. |
@@ -37,7 +37,7 @@ All necessary packages can be installed using `pip`. It's recommended to do this
 
 Place the original raw data file, which should be named **`cycling_data.csv`**, into the **`./data/`** directory.
 
-> **Note:** The script `analyze.py` is configured to look for the file in `./data/cycling_data.csv`.
+> **Note:** The script `analysis.py` is configured to look for the file in `./data/cycling_data.csv`.
 
 ---
 
@@ -45,7 +45,7 @@ Place the original raw data file, which should be named **`cycling_data.csv`**, 
 
 Execute the main script from the root directory:
 
-    python analyze.py
+    python analysis.py
 
 The script will print the statistical test results (Levene's, Kruskal-Wallis, and Dunn's post-hoc matrices) to the console and save all generated figures and summary tables to the **`./output/`** folder.
 
