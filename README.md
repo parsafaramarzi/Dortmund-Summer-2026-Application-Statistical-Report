@@ -3,6 +3,12 @@
 This repository contains the complete **Python code** used to generate the statistical analysis and visualizations for the TU Dortmund Master's application report.
 
 The analysis addresses the research questions concerning the relationship between **Rider Class**, **Stage Class**, and competitive **Points** performance in the dataset.
+---
+
+## 📄 Statistical Report
+Click the image below to read the full 10-page report.
+
+[![Read the Report](report_image.JPG)](./P.Faramarzi%20-%20Dortmund%20DS%20Summer%202026%20Application%20Statistical%20Report.pdf)
 
 ---
 
