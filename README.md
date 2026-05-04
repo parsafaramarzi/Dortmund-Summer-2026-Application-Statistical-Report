@@ -1,6 +1,6 @@
 # 🚴‍♂️ TU Dortmund M.Sc. Data Science Application Report: Cycling Performance Analysis
 
-This repository contains the complete **Python code** used to generate the statistical analysis and visualizations for the TU Dortmund Master's application report.
+This repository contains the complete **Python code** used to generate the statistical analysis and visualizations for the TU Dortmund Master's application report. This project granted me admission to [TUDO University](https://www.tu-dortmund.de/en/) for [Data Science MSc Programme](https://statistik.tu-dortmund.de/studium/studiengaenge/master-data-science/)
 
 The analysis addresses the research questions concerning the relationship between **Rider Class**, **Stage Class**, and competitive **Points** performance in the dataset.
 ---
@@ -57,4 +57,4 @@ The script will print the statistical test results (Levene's, Kruskal-Wallis, an
 
 ---
 
-*This repository is maintained as a private resource for the purpose of academic review for the M.Sc. Data Science application to TU Dortmund, Sommersemester 2026. Access is restricted to authorized personnel.*
+*This repository was maintained as a private resource for the purpose of academic review for the M.Sc. Data Science application to TU Dortmund, Sommersemester 2026. Access was granted to public after the end of application and evaluation period.*
