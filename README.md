@@ -12,17 +12,6 @@ Click the image below to read the full 10-page report.
 
 ---
 
-## 📂 Repository Contents
-
-| File/Folder | Description |
-| :--- | :--- |
-| `analysis.py` | **The main analysis script.** Executes all steps: data loading, cleaning, descriptive statistics, assumption checks (Levene's), inferential testing (Kruskal-Wallis), and post-hoc analysis (Dunn's). |
-| `data/` | Placeholder directory for the original raw data file (`cycling_data.csv`). **Note:** Due to security policies, the original data file is **not included** in this repository but **must be placed here** to run the script. |
-| `output/` | Contains the generated statistical visualizations and the comprehensive descriptive tables referenced in the report. |
-| `README.md` | This documentation file. |
-
----
-
 ## 🛠️ 1. Environment Setup
 
 This project requires a standard Python data science environment.
@@ -38,12 +27,6 @@ All necessary packages can be installed using `pip`. It's recommended to do this
     pip install pandas numpy scipy scikit-posthocs matplotlib seaborn
 
 * **Key Packages:** `scipy.stats` (for Kruskal-Wallis, Levene), `scikit_posthocs` (for Dunn's post-hoc test).
-
-### 1.3. Data Placement
-
-Place the original raw data file, which should be named **`cycling_data.csv`**, into the **`./data/`** directory.
-
-> **Note:** The script `analysis.py` is configured to look for the file in `./data/cycling_data.csv`.
 
 ---
 
